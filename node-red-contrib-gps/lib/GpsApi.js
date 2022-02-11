@@ -6,7 +6,7 @@ const GpsApiCode = require('./GpsApiCode')
 const EXPIRE_TIME = (60 * 1000)
 
 const baseUrl = { 'gpsoo': 'http://api.gpsoo.net/1',
-  'gmiot': 'http://litapi.gmiot.net/1' }
+  'gmiot': 'https://litapi.gmiot.net/1' }
 
 class GpsApi {
   constructor (node, config) {
